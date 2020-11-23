@@ -7,19 +7,25 @@
  "dependencies": {
   "@types/koa": "^2.11.6",
   "@types/koa-router": "^7.4.1",
+  "apollo-server-koa": "^2.19.0",
+  "graphql": "^15.4.0",
   "koa": "^2.13.0",
   "koa-logger": "^3.2.1",
   "koa-router": "^10.0.0",
+  "mysql": "^2.18.1",
   "node": "^15.2.1",
   "ts-node": "^9.0.0",
   "typescript": "^4.0.5"
  },
  "scripts": {
-  "start": "ts-node index.ts"
+  "start": "nodemon --exec ts-node index.ts"
  },
  "compilerOptions": {
   "lib": [
    "es2015"
   ]
+ },
+ "devDependencies": {
+  "nodemon": "^2.0.6"
  }
 }
